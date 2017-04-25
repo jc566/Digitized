@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraWorking_Project.Plugins", "CameraWorking_Project.Plugins.csproj", "{CF169748-4521-6D62-8797-AE4B7E5668A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraWorking_Project", "CameraWorking_Project.csproj", "{B54A9064-558C-0AE0-BE73-D9195B2F7343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraWorking_Project.Editor", "CameraWorking_Project.Editor.csproj", "{0B3BA46C-3C6A-D716-99A9-0D5C30CCB666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF169748-4521-6D62-8797-AE4B7E5668A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF169748-4521-6D62-8797-AE4B7E5668A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF169748-4521-6D62-8797-AE4B7E5668A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF169748-4521-6D62-8797-AE4B7E5668A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54A9064-558C-0AE0-BE73-D9195B2F7343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54A9064-558C-0AE0-BE73-D9195B2F7343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54A9064-558C-0AE0-BE73-D9195B2F7343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54A9064-558C-0AE0-BE73-D9195B2F7343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3BA46C-3C6A-D716-99A9-0D5C30CCB666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3BA46C-3C6A-D716-99A9-0D5C30CCB666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3BA46C-3C6A-D716-99A9-0D5C30CCB666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3BA46C-3C6A-D716-99A9-0D5C30CCB666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
