@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SnowRegionRespawn.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AlwaysInfrontOfPlayer.cs">
     <Files>
-      <File FileName="Assets\Scripts\SnowRegionRespawn.cs" Line="42" Column="60" />
+      <File FileName="Assets\Scripts\SnowRegionRespawn.cs" Line="1" Column="1" />
       <File FileName="Assets\spawn_script.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\VRInvPickup.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlaySoundEffects.cs" Line="27" Column="31" />
-      <File FileName="Assets\Scripts\InventoryScript.cs" Line="30" Column="3" />
-      <File FileName="Assets\Scripts\SnowballCollisionEvent.cs" Line="20" Column="93" />
+      <File FileName="Assets\Scripts\PlaySoundEffects.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InventoryScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SnowballCollisionEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AlwaysInfrontOfPlayer.cs" Line="14" Column="62" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
