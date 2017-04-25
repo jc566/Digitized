@@ -14,8 +14,12 @@ public class SnowRegionRespawn : MonoBehaviour {
 
     public GameObject[] allSnowballsSpawned; //store the copied list
 
-    public Sprite whipIcon; //reference to whip
+	public GameObject whip; //reference to the whip game object
+
+    public Sprite whipIcon; //reference to whip icone for the inventory UI
+
     GameObject[] children;
+
     // Use this for initialization
     void Start () {
         player = GameObject.FindGameObjectWithTag("Player"); //set ref
@@ -31,12 +35,17 @@ public class SnowRegionRespawn : MonoBehaviour {
      * Toggle SnowRespawn Waypoint ON - DONE
      * Stop the Snowballs Spawning - DONE
      * Delete the Snowballs in map - DONE
-     * Remove item from Inventory Script 
+     * Remove item from Inventory Script - DONE
      * Remove icon in inventory UI - DONE
-     * Toggle Item to turn on and off instead of deleting it
+     * Toggle Item to turn on and off instead of deleting it -DONE
      */
+	//All logic required to mimic a respawn in the snow region
     public void respawnPlayer()
     {
+		//Straighten out player orientation
+		player.transform.rotation = Quaternion.identity;
+
+		//Deleting Snowballs Logic
         copiedList = GameObject.Find("avalancheTrigger").GetComponent<spawn_script>().allSnowballsSpawned;//copy the values from Spawn_script
         allSnowballsSpawned = copiedList.ToArray();//convert list to array
         //delete each snowball
@@ -65,6 +74,11 @@ public class SnowRegionRespawn : MonoBehaviour {
             }
         }
 
+		//Set the Whip back to Active in place
+		whip.SetActive(true);
+
+		//remove the boolean from inventory script
+		player.GetComponent<InventoryScript>().lostWhip();
 
         respawnWaypoint.SetActive(true); //set the respawn waypoint to active
         player.GetComponent<Rigidbody>().velocity = Vector3.zero; //stop all physics movement

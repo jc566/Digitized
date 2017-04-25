@@ -17,7 +17,11 @@ public class SnowballCollisionEvent : MonoBehaviour {
     {
         if(collision.gameObject.tag == "Player")
         {
-            player.GetComponent<SnowRegionRespawn>().respawnPlayer();
+			Invoke ("runRespawnInfo", 3); //run function to trigger respawn conditions in snow region
         }
     }
+	public void runRespawnInfo()
+	{
+		player.GetComponent<SnowRegionRespawn>().respawnPlayer();
+	}
 }

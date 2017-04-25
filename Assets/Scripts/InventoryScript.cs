@@ -24,4 +24,8 @@ public class InventoryScript : MonoBehaviour {
     {
         haveBoots = true;
     }
+	public void lostWhip()
+	{
+		haveWhip = false;
+	}
 }
