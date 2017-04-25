@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6FDEA187-8B51-F2A2-407D-1045DA5CF170}</ProjectGuid>
+    <ProjectGuid>{36C0016D-084D-1017-B75B-23BD705FD0C6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -213,6 +213,7 @@
      <Compile Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
      <Compile Include="Assets\Models\Campfire Pack\Script\SwitchView.cs" />
      <Compile Include="Assets\Models\Free_Rocks\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\AnimalGameTrigger.cs" />
      <Compile Include="Assets\Scripts\AnimalStatues.cs" />
      <Compile Include="Assets\Scripts\AnimalsMiniGame.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -220,11 +221,19 @@
      <Compile Include="Assets\Scripts\PlaySoundEffects.cs" />
      <Compile Include="Assets\Scripts\PlayWalkingSounds.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\SnowRegionRespawn.cs" />
+     <Compile Include="Assets\Scripts\SnowballCollisionEvent.cs" />
      <Compile Include="Assets\Scripts\TimedInputHandler.cs" />
      <Compile Include="Assets\Scripts\TimedInputObject.cs" />
      <Compile Include="Assets\Scripts\VRInvPickup.cs" />
+     <Compile Include="Assets\Scripts\WalkingSoundEffectTriggerF2B.cs" />
+     <Compile Include="Assets\Scripts\WalkingSoundEffectsTriggerB2S.cs" />
+     <Compile Include="Assets\Scripts\WalkingSoundEffectsTriggerFs.cs" />
+     <Compile Include="Assets\Scripts\moveCaveDoor.cs" />
      <Compile Include="Assets\Scripts\spin.cs" />
+     <Compile Include="Assets\Scripts\waypointsToggle.cs" />
      <Compile Include="Assets\SnowballBehavior.cs" />
+     <Compile Include="Assets\UtopiaWorx\Shaders\HardWater\Scripts\HardWaterGenerator.cs" />
      <Compile Include="Assets\VRMovementPack\Scripts\VRAdvancedWalk.cs" />
      <Compile Include="Assets\VRMovementPack\Scripts\VRAutofly.cs" />
      <Compile Include="Assets\VRMovementPack\Scripts\VRAutowalk.cs" />
@@ -248,6 +257,7 @@
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
+     <None Include="Assets\UtopiaWorx\Shaders\HardWater\Shaders\HardWater.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
@@ -299,6 +309,7 @@
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\UtopiaWorx\Shaders\HardWater\Shaders\HardWaterMobile.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
@@ -324,6 +335,7 @@
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\UtopiaWorx\Shaders\HardWater\Shaders\HardWaterSingleSided.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
@@ -352,12 +364,12 @@
  <HintPath>C:/Program Files/Unity 5.4.2f2-GVR13/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/Jchoi1989/Desktop/it485/IT485VRGAME/CameraWorking_Project/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/Jchoi1989/Desktop/digitize/Digitized/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{06A44940-315B-61B2-AE13-E8620701BE91}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{58F70180-D425-320A-7099-5DDAD1360AE9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
