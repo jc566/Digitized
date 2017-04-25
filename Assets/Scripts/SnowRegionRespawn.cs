@@ -33,6 +33,7 @@ public class SnowRegionRespawn : MonoBehaviour {
      * Delete the Snowballs in map - DONE
      * Remove item from Inventory Script 
      * Remove icon in inventory UI - DONE
+     * Toggle Item to turn on and off instead of deleting it
      */
     public void respawnPlayer()
     {

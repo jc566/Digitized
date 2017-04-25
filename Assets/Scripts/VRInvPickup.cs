@@ -90,8 +90,9 @@ public class VRInvPickup : MonoBehaviour, IGvrGazeResponder
         //childObjs.GetComponent<Image>().sprite = invIcon;
         //Debug.Log(childObjs);
         
-        Destroy(gameObject);
-        Destroy(gameObject.GetComponent<Collider>());
+        //Destroy(gameObject);
+        //Destroy(gameObject.GetComponent<Collider>());
+		gameObject.SetActive(false);
 
     }
 
