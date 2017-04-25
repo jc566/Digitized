@@ -56,6 +56,7 @@ public class AnimalStatues : MonoBehaviour, IGvrGazeResponder
         //Debug.Log(arrayRef);
         if(arrayRef.Count < 3)
         {
+            this.GetComponent<PlaySoundEffects>().playSound = true;
             arrayRef.Add(this.gameObject);
         }
         

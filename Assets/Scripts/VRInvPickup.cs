@@ -85,11 +85,14 @@ public class VRInvPickup : MonoBehaviour, IGvrGazeResponder
             }
         }
         //GameObject[] childObjs = inventory.transform.GetChild(i).gameObject;
-        
+
         //GameObject childObjs = inventory.transform.GetChild(1).gameObject;
         //childObjs.GetComponent<Image>().sprite = invIcon;
         //Debug.Log(childObjs);
+        
         Destroy(gameObject);
+        Destroy(gameObject.GetComponent<Collider>());
+
     }
 
     //Add to your player inventory

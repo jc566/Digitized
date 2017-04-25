@@ -56,7 +56,7 @@ public class AnimalsMiniGame : MonoBehaviour
 
         for (index = 0; index < savedList.Length; index++)
         {
-
+            
             savedList[index].GetComponentInChildren<Collider>().enabled = false;
 
         }
@@ -64,7 +64,7 @@ public class AnimalsMiniGame : MonoBehaviour
         for (index = 0;index < savedList.Length;index++)
         {
             yield return new WaitForSeconds(.5f);
-           
+            //savedList[index].GetComponent<PlaySoundEffects>().playSound = true;
             savedList[index].GetComponentInChildren<Light>().enabled = true;
 
             yield return new WaitForSeconds(.5f);
