@@ -67,7 +67,7 @@ public class VRInvPickup : MonoBehaviour, IGvrGazeResponder
         {
             children[i] = inventory.transform.GetChild(i).gameObject;
 
-            Debug.Log(children[i].GetComponent<Image>().sprite);
+            //Debug.Log(children[i].GetComponent<Image>().sprite);
             
 
         }
@@ -78,7 +78,7 @@ public class VRInvPickup : MonoBehaviour, IGvrGazeResponder
             //Debug.Log(children[i].GetComponent<Image>().sprite);
             if (children[i].GetComponent<Image>().sprite == null)
             {
-                Debug.Log("YOUR IMAGES ARE EMPTY");
+                //Debug.Log("YOUR IMAGES ARE EMPTY");
 
                 children[i].GetComponent<Image>().sprite = invIcon;
                 break;

@@ -251,6 +251,8 @@
     <Compile Include="Assets\Scripts\PlaySoundEffects.cs" />
     <Compile Include="Assets\Scripts\PlayWalkingSounds.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\SnowRegionRespawn.cs" />
+    <Compile Include="Assets\Scripts\SnowballCollisionEvent.cs" />
     <Compile Include="Assets\Scripts\TimedInputHandler.cs" />
     <Compile Include="Assets\Scripts\TimedInputObject.cs" />
     <Compile Include="Assets\Scripts\VRInvPickup.cs" />
