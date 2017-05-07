@@ -179,9 +179,9 @@ public class VRWaypoint : MonoBehaviour {
             
             // *** Uncomment the following 2 lines to make a nice fade in ***
             // Set my material to clear
-            //i.gameObject.transform.GetChild(0).gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.clear);
+            i.gameObject.transform.GetChild(0).gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.clear);
             // Tween back to Normal color
-            //iTween.ColorTo(i.gameObject.transform.GetChild(0).gameObject, Color.white, 2f);
+            iTween.ColorTo(i.gameObject.transform.GetChild(0).gameObject, Color.white, 2f);
         }
         EnableVisuals();
         gameObject.SetActive(false);
