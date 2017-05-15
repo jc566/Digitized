@@ -2,14 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\VRMovementPack\Scripts\VRWaypoint.cs">
     <Files>
-      <File FileName="Assets\Scripts\SnowRegionRespawn.cs" Line="1" Column="1" />
-      <File FileName="Assets\spawn_script.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\VRInvPickup.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlaySoundEffects.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\InventoryScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SnowballCollisionEvent.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AlwaysInfrontOfPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets\VRMovementPack\Scripts\VRWaypoint.cs" Line="184" Column="13" />
+      <File FileName="Assets\Scripts\snowParticleEffectTrigger.cs" Line="12" Column="5" />
+      <File FileName="Assets\Scripts\WalkingSoundEffectsTriggerB2S.cs" Line="16" Column="9" />
+      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="31" Column="6" />
+      <File FileName="Assets\Scripts\AnimalsMiniGame.cs" Line="15" Column="37" />
+      <File FileName="Assets\Scripts\LightColorChanger.cs" Line="11" Column="37" />
+      <File FileName="Assets\VRMovementPack\Scripts\VRWaypoint.cs" Line="184" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
