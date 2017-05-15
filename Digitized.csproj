@@ -243,6 +243,7 @@
     <Compile Include="Assets\Materials\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
     <Compile Include="Assets\Models\Campfire Pack\Script\SwitchView.cs" />
     <Compile Include="Assets\Models\Free_Rocks\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\AlwaysInfrontOfPlayer.cs" />
     <Compile Include="Assets\Scripts\AnimalGameTrigger.cs" />
     <Compile Include="Assets\Scripts\AnimalStatues.cs" />
     <Compile Include="Assets\Scripts\AnimalsMiniGame.cs" />

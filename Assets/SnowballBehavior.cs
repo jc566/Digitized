@@ -11,6 +11,12 @@ public class SnowballBehavior : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.localScale += new Vector3(0.01F, 0.01F, 0.01F);
-        //Destroy(this.gameObject, 5.0f);
+        StartCoroutine(destroyThisObject());
 	}
+
+    IEnumerator destroyThisObject()
+    {
+        yield return new WaitForSeconds(15.0f);
+        Destroy(this.gameObject);
+    }
 }
