@@ -249,6 +249,7 @@
     <Compile Include="Assets\Scripts\AnimalsMiniGame.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\InventoryScript.cs" />
+    <Compile Include="Assets\Scripts\LightColorChanger.cs" />
     <Compile Include="Assets\Scripts\PlaySoundEffects.cs" />
     <Compile Include="Assets\Scripts\PlayWalkingSounds.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
@@ -261,6 +262,7 @@
     <Compile Include="Assets\Scripts\WalkingSoundEffectsTriggerB2S.cs" />
     <Compile Include="Assets\Scripts\WalkingSoundEffectsTriggerFs.cs" />
     <Compile Include="Assets\Scripts\moveCaveDoor.cs" />
+    <Compile Include="Assets\Scripts\snowParticleEffectTrigger.cs" />
     <Compile Include="Assets\Scripts\spin.cs" />
     <Compile Include="Assets\Scripts\waypointsToggle.cs" />
     <Compile Include="Assets\SnowballBehavior.cs" />
